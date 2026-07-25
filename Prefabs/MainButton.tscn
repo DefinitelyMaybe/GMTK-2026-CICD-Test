@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cplduas5c2hsw"]
+
+[ext_resource type="Script" uid="uid://d3lksci5our1" path="res://Scripts/main_button.gd" id="1_e77u6"]
+[ext_resource type="Texture2D" uid="uid://dlno7d70bs5t1" path="res://Assets/Button/idle (Not pressing)).png" id="1_w1l21"]
+
+[node name="MainButton" type="Node2D" unique_id=1307133384]
+script = ExtResource("1_e77u6")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1504640210]
+texture = ExtResource("1_w1l21")

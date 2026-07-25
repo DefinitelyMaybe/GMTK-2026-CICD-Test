@@ -3,8 +3,8 @@ var active_minigames: Dictionary = {}
 
 #add your mini game scenes here.
 var minigame_scenes := {
-	"report": preload("res://Scenes/minigames/report_minigame.tscn"),
-	"coffee": preload("res://Scenes/minigames/coffee_minigame.tscn")
+	"report": preload("res://Prefabs/report_minigame.tscn"),
+	"coffee": preload("res://Prefabs/coffee_minigame.tscn")
 }
 
 func _ready() -> void:
